@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pavithra T - Full Stack & AI Developer portfolio">
+  <title>Pavithra T | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="home">
+  <div class="app-shell">
+    <aside class="sidebar glass-panel" id="sidebar">
+      <div class="brand">
+        <div class="brand-mark">PT</div>
+        <div>
+          <h1>Pavithra T</h1>
+          <p>Crafting real-world solutions</p>
+        </div>
+      </div>
+      <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav-links" id="navMenu">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="skills.html" class="nav-link">Skills</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="experience.html" class="nav-link">Experience</a>
+        <a href="resume.html" class="nav-link">Resume</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <div class="sidebar-footer">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark and light mode">
+          <span class="theme-icon">L</span>
+          <span>Theme</span>
+        </button>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/pavithra1104/" aria-label="LinkedIn" target="_blank" rel="noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.94 8.5H3.56V19.5h3.38Zm-1.69-5A1.96 1.96 0 1 0 5.22 7.4 1.96 1.96 0 0 0 5.25 3.5Zm15.19 9.27c0-3.32-1.77-4.86-4.13-4.86a3.57 3.57 0 0 0-3.22 1.77V8.5H9.72c.04.78 0 11 0 11h3.37v-6.14a2.26 2.26 0 0 1 .11-.81 2.23 2.23 0 0 1 2.08-1.49c1.47 0 2.06 1.12 2.06 2.77v5.67h3.37Z"/></svg>
+          </a>
+          <a href="https://github.com/Pavithra406" aria-label="GitHub" target="_blank" rel="noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5A12 12 0 0 0 8.2 23.9c.6.1.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61A3.18 3.18 0 0 0 3.64 18c-1.09-.74.08-.73.08-.73a2.52 2.52 0 0 1 1.84 1.24 2.56 2.56 0 0 0 3.5 1 2.56 2.56 0 0 1 .76-1.61c-2.66-.3-5.47-1.33-5.47-5.92a4.64 4.64 0 0 1 1.24-3.22 4.3 4.3 0 0 1 .12-3.18s1-.33 3.3 1.23a11.4 11.4 0 0 1 6 0c2.27-1.56 3.29-1.23 3.29-1.23a4.28 4.28 0 0 1 .12 3.18 4.63 4.63 0 0 1 1.24 3.22c0 4.6-2.82 5.62-5.5 5.91a2.87 2.87 0 0 1 .82 2.22v3.29c0 .32.22.69.83.57A12 12 0 0 0 12 .5Z"/></svg>
+          </a>
+          <a href="https://leetcode.com/u/Pavi_0704/" aria-label="LeetCode" target="_blank" rel="noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14.85 3.3 1.83 1.66-5.3 5.89a1.6 1.6 0 0 0 0 2.12l5.3 5.9-1.83 1.66-5.95-6.63a4.18 4.18 0 0 1 0-5.59ZM8.66 11.9H21v2.43H8.66Z M4.16 12.1 8 8.25l1.71 1.72L7.58 12.1l2.13 2.13L8 15.95Z"/></svg>
+          </a>
+          <a href="mailto:pavithrathangaduraitr@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5.25A2.25 2.25 0 0 1 5.25 3h13.5A2.25 2.25 0 0 1 21 5.25v13.5A2.25 2.25 0 0 1 18.75 21H5.25A2.25 2.25 0 0 1 3 18.75Zm2.36.75L12 11.18 18.64 6Zm13.14 1.18-5.92 4.62a1 1 0 0 1-1.16 0L5.5 7.18v11.57a.75.75 0 0 0 .75.75h12.5a.75.75 0 0 0 .75-.75Z"/></svg>
+          </a>
+        </div>
+      </div>
+    </aside>
+    <main class="main-content" id="contentArea">
+      <section class="page-section active hero section" id="home">
+        <div class="hero-bg">
+          <canvas id="particleCanvas"></canvas>
+        </div>
+        <div class="hero-copy reveal">
+          <span class="eyebrow">B.Tech Information Technology Student</span>
+          <h2 class="hero-name">Pavithra T</h2>
+          <p class="hero-tagline">Full Stack & AI Developer crafting real-world solutions</p>
+          <p>Passionate B.Tech Information Technology student specializing in Full Stack Development and Artificial Intelligence. Experienced in building intelligent web platforms and AI-driven solutions including crop disease detection systems and smart automation platforms. Interested in solving real-world problems using scalable technology.</p>
+          <div class="typing-line">
+            <span>I build as a </span>
+            <strong id="typingText">Full Stack Developer</strong>
+          </div>
+          <div class="hero-actions">
+            <a class="button primary" href="projects.html">View Projects</a>
+            <a class="button secondary" href="assets/Pavithra T_Resume.pdf" download>Download Resume</a>
+            <a class="button tertiary" href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div class="hero-panels reveal">
+          <article class="metric-card glass-panel">
+            <span>Focus</span>
+            <strong>Full Stack + AI</strong>
+            <p>Building intelligent applications with practical business value.</p>
+          </article>
+          <article class="metric-card glass-panel">
+            <span>Projects</span>
+            <strong>5 Featured Builds</strong>
+            <p>From agri-tech platforms to AI-powered recruitment workflows.</p>
+          </article>
+          <article class="metric-card glass-panel">
+            <span>Internships</span>
+            <strong>4 Industry Experiences</strong>
+            <p>Hands-on work across web development, SEO, and data science.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
